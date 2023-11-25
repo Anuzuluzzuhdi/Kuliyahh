@@ -1,10 +1,7 @@
 public class TerimaKasih_01 {
-    public static void UcapanTerimaKasih() {
-    System.out.println("Thank you for being the best mother in the world.\n"+
-    "You support me for everything and always wish me the best.");
-    }
-
+    
     public static void main(String[] args) {
-        UcapanTerimaKasih();
+        System.out.println("Thank you for being the best mother in the world.\n"+
+        "You support me for everything and always wish me the best.");
     }
 }
