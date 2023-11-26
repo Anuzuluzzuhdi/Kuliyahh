@@ -8,6 +8,13 @@ public class UcapanTerimaKasih_01 {
         sc01.close();
         return namaOrang;
     }
+    public static String UcapanTambahan(){
+        Scanner sc01 = new Scanner(System.in);
+        System.out.println("Tuliskan ucapan tambahan yang ingin diberikan :");
+        String ucapan = sc01.nextLine();
+        sc01.close();
+        return ucapan;
+    }
     public static void UcapanTerimaKasih() {
         String nama = PenerimaUcapan();
         System.out.println("Thank you "+nama+" for being the best mother in the world.\n"+
