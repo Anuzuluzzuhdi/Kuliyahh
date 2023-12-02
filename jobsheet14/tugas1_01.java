@@ -1,12 +1,12 @@
 import java.util.Scanner;
 public class tugas1_01 {
-    public static void deretDescendingRekursif(int a) {
+    public static void deretDescendingRekursif(int a) { //Menggunakan fungsi rekursif
         for(int i = a; i >= 0; i--) {
             System.out.print(i + " ");
         }
     }
 
-    public static void deretDescendingIteratif(int a) {
+    public static void deretDescendingIteratif(int a) { //Menggunakan fungsi iteratif
         if(a >= 0) {
             System.out.print(a + " ");
             deretDescendingIteratif(a - 1);
