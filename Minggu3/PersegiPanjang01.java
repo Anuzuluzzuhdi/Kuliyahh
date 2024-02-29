@@ -1,7 +1,15 @@
 public class PersegiPanjang01 {
     public int panjang;
     public int lebar;
-    
+
+    public PersegiPanjang01(){
+        
+    }
+
+    public PersegiPanjang01(int p, int l) {
+        panjang = p;
+        lebar = l;
+    }
     public static void main(String[] args) {
         PersegiPanjang01[] arrayOfPersegiPanjang01 = new PersegiPanjang01[3];
 
